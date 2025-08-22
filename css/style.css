@@ -82,3 +82,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #f7b731; /* Cor para destacar o item ao passar o mouse */
 }
+/* Classe para esconder seções */
+.hidden {
+    display: none;
+}
