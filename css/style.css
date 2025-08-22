@@ -36,3 +36,49 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+/* Estilo geral para o menu e header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4b3e39; /* Cor de fundo escura */
+    color: #fff;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+/* Estilo do logo */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo da lista do menu */
+nav ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinha os itens lado a lado */
+    gap: 2rem; /* Espaçamento entre os itens */
+}
+
+/* Estilo dos links do menu */
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1rem;
+    transition: color 0.3s; /* Adiciona uma transição suave para a cor */
+}
+
+/* Efeito ao passar o mouse */
+nav ul li a:hover {
+    color: #f7b731; /* Cor para destacar o item ao passar o mouse */
+}
